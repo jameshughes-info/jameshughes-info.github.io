@@ -35,6 +35,7 @@
       <itunes:episode>3</itunes:episode>
       <enclosure url="https://www.jameshughes.info/videos/poulenc-premier.m4v" length="72419958" type="video/mp4"/>
       <guid isPermaLink="false">poulenc-premier</guid>
+      <itunes:duration>00:08:47</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -44,6 +45,7 @@
       <itunes:episode>3</itunes:episode>
       <enclosure url="https://www.jameshughes.info/videos/stamitz-concerto-3.m4v" length="33712255" type="video/mp4"/>
       <guid isPermaLink="false">stamitz-concerto-3</guid>
+      <itunes:duration>00:02:28</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -53,6 +55,7 @@
       <itunes:episode>3</itunes:episode>
       <enclosure url="https://www.jameshughes.info/videos/stravinsky-1-of-three-pieces.m4v" length="81540612" type="video/mp4"/>
       <guid isPermaLink="false">stravinsky-1-of-three-pieces</guid>
+      <itunes:duration>00:02:21</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -62,6 +65,7 @@
       <itunes:episode>2</itunes:episode>
       <enclosure url="https://www.jameshughes.info/videos/cavallini-capricci-1-of-30.m4v" length="73600285" type="video/mp4"/>
       <guid isPermaLink="false">cavallini-capricci-1-of-30</guid>
+      <itunes:duration>00:02:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -71,6 +75,7 @@
       <itunes:episode>1</itunes:episode>
       <enclosure url="https://www.jameshughes.info/videos/clarinet-ensemble.m4v" length="30812534" type="video/mp4"/>
       <guid isPermaLink="false">clarinet-ensemble</guid>
+      <itunes:duration>00:01:51</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
