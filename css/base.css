@@ -25,4 +25,4 @@ li a img { padding: 35px 0 0 0; }
 li span { color: #fff; display: block; margin: 30px auto 0; width: 400px; }
 li.ws span { color: #003072; }
 li.oots span { color: #8b1f5b; }
-li.eso span { color: #343d76; }
+li.eso { background-color: #343d76; }
