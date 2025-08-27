@@ -1,5 +1,5 @@
 body { background-color: #ddd; font-family: "Helvetica", "Helvetica Neue", "Arial", sans-serif; font-size: 16px; }
-nav { background-color: #003072; display: block; height: 50px; line-height: 20px; position: absolute; top: 0; left: 0; width: 100%; }
+nav { background-color: #000; display: block; height: 50px; line-height: 20px; position: absolute; top: 0; left: 0; width: 100%; }
 nav a { display: inline-block; font-size: 20px; height: 20px; text-decoration: none; vertical-align: middle; }
 nav a.logo { background-image: url(../images/clarinet-h1.png); background-position: center center; background-repeat: no-repeat; background-size: 50px 50px; height: 50px; margin: 0 430px 0 0; overflow: hidden; text-indent: 100%; white-space: nowrap; width: 50px; }
 nav a.podcast { background-image: url(../images/podcast.png); background-position: center center; background-repeat: no-repeat; background-size: 40px 40px; height: 40px; margin: 0 20px 0 0; overflow: hidden; text-indent: 100%; white-space: nowrap; width: 40px; }
@@ -9,10 +9,10 @@ nav h2 { color: #fff; display: inline-block; font-size: 30px; font-weight: bold;
 nav div { margin: 0 auto; width: 1280px; }
 section { margin: 0 auto; width: 1280px; }
 section video { margin: 5px 0; }
-section.strapline { color: #fff; margin: 0 auto; padding: 25px 0 10px; text-align: center; width: 1280px; }
-section.strapline h1 { background-color: #003072; font-size: 32px; margin: 0 auto; padding: 20px 0; }
-section.strapline h2.location { background-color: #003072; font-size: 26px; margin: 0 auto; padding: 20px 0 0; }
-section.strapline h2.email { background-color: #003072; font-size: 26px; margin: 0 auto; padding: 10px 0 35px; }
+section.strapline { background-color: transparent; color: #fff; margin: 0 auto; padding: 25px 0 10px; text-align: center; width: 1280px; }
+section.strapline h1 { background-color: #000; font-size: 32px; margin: 0 auto; padding: 20px 0; }
+section.strapline h2.location { background-color: #000; font-size: 26px; margin: 0 auto; padding: 20px 0 0; }
+section.strapline h2.email { background-color: #000; font-size: 26px; margin: 0 auto; padding: 10px 0 35px; }
 section.strapline h2 a { color: #fff; }
 section.hero { margin: 35px auto 0; }
 ul { list-style-type: none; margin: 0; padding: 0; text-align: center; }
@@ -23,6 +23,6 @@ li.nycb { background-color: #000; }
 li a { display: inline-block; height: 300px; width: 637px; text-align: center; text-decoration: none; }
 li a img { padding: 35px 0 0 0; }
 li span { color: #fff; display: block; margin: 30px auto 0; width: 400px; }
-li.ws span { color: #003072; }
+li.gsmd span { color: #000; }
 li.oots span { color: #8b1f5b; }
 li.eso { background-color: #343d76; }
