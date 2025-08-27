@@ -7,8 +7,8 @@
     <copyright>www.jameshughes.info</copyright>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en-gb</language>
-    <pubDate>Sun, 13 Oct 2024 16:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2024 13:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 25 Aug 2025 16:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 25 Aug 2025 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.jameshughes.info/images/artwork.png</url>
       <title>James Hughes Music</title>
@@ -28,7 +28,6 @@
     <itunes:category text="Arts">
       <itunes:category text="Performing Arts" />
     </itunes:category>
-    <!--
     <item>
       <title>Solo de concours, for clarinet and piano, by André Messager</title>
       <description>Solo de concours, for clarinet and piano, by André Messager</description>
@@ -49,7 +48,6 @@
       <itunes:duration>00:07:12</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
-    -->
     <item>
       <title>Sonata for clarinet and piano, FP 184, by Francis Poulenc (mvts. II &amp; III)</title>
       <description>Sonata for clarinet and piano, FP 184, by Francis Poulenc (mvts. II &amp; III)</description>
