@@ -15,6 +15,21 @@
     <meta property="og:site_name" content="James Hughes" />
     <meta property="og:title" content="James Hughes" />
     <meta property="og:url" content="https://www.jameshughes.info/" />
+	<script>
+		function hideHero() {
+			var heroVideo = document.getElementById('heroVideo');
+			var poulencDiv = document.getElementById('poulenc');
+			heroVideo.removeEventListener("ended", hideHero);
+			heroVideo.remove();
+			poulencDiv.style.display = 'block';
+		}
+
+		window.onload = function() {
+			var heroVideo = document.getElementById('heroVideo');
+			var poulencDiv = document.getElementById('poulenc');
+			heroVideo.addEventListener("ended", hideHero, false);
+		}
+	</script>
     <title>James Hughes: Classical Clarinettist</title>
   </head>
   <body class="hero">
@@ -29,12 +44,17 @@
     </nav>
     <main>
       <section class="strapline hero">
-        <video width="1280" height="720" controls preload="metadata" poster="images/poster.png">
-          <source src="videos/poulenc-fp184.m4v" type="video/mp4" />
-        </video>
-        <h1>James Hughes is one of the UK's leading clarinet students,<br />helping find & perform the perfect music for your event</h1>
-        <h2 class="location">Based in Central London, I am available for events nearby</h2>
-        <h2 class="email">Please email <a href="mailto:contact@jameshughes.info" title="Contact via email">contact@jameshughes.info</a> to discuss how I might help</h2>
+       	<video id="heroVideo" width="1280" height="720" autoplay muted playsinline>
+       		<source src="videos/hero.m4v" type="video/mp4" />
+       	</video>
+		<div id="poulenc" style="display: none;">
+	        <video width="1280" height="720" controls preload="metadata" poster="images/poster.png">
+    	      <source src="videos/poulenc-fp184.m4v" type="video/mp4" />
+        	</video>
+	        <h1>James Hughes is one of the UK's leading clarinet students</h1>
+   		    <h2 class="location">Based in Central London, I am available for events nearby</h2>
+       		<h2 class="email">Please email <a href="mailto:contact@jameshughes.info" title="Contact via email">contact@jameshughes.info</a> to discuss how I might help</h2>
+		</div>
       </section>
       <section id="about">
         <ul>
